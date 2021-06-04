@@ -13,7 +13,6 @@ class Anagram
     array.each do |el|
       new_el = el.split("")
       new_word.sort == new_el.sort
-      end
     end
   end
 end
