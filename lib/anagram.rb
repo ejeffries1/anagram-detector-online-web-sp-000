@@ -12,7 +12,7 @@ class Anagram
     new_word = @word.split("")
     array.each do |el|
       new_el = el.split("")
-      new_word.sort == new_el.sort
+      new_el.sort == new_word.sort
     end
   end
 end
