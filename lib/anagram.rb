@@ -14,6 +14,7 @@ class Anagram
       new_el = el.split("")
       if new_el.sort == new_word.sort
         el
+      end
     end
   end
 end
